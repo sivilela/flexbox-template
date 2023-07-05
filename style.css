@@ -2,3 +2,49 @@
     margin: 0;
     padding: 0;
 }
+
+.cabecalho{
+    border: 1px solid black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    
+}
+
+.conteiner-main{
+    display: flex;
+    /* flex-direction: column; */
+    height: 80vh;
+    /* gap: 20px; */
+    /* padding: 0 16px; */
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-esquerda{
+    border: 1px solid black;
+    width: 300px;
+}
+
+.menu-direita{
+    border: 1px solid black;
+    order: 1;
+    width: 300px;
+    align-items: stretch;
+}
+
+.text-conteiner{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
